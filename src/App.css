@@ -1,38 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  accent-color: #807182;
+}
+
 .App {
-  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 100px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.canvas {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  background-color: #FFC9B5;
+  overflow: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.baseball-card {
+  width: max-content;
+  height: max-content;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  align-content: flex-start;
+  transform: translate(-160%, 50%) !important;
 }
