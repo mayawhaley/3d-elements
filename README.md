@@ -1,3 +1,14 @@
+# Fun with Three.js
+
+This is my introduction to creating 3d elements with Javascript.
+
+Libraries used:
+- three.js
+- react-three/fiber
+- react-three/drei
+
+**demo: https://mayawhaley.github.io/3d-elements/**
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
